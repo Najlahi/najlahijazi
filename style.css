@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #dfd5f7;
+}
+
+header {
+  background-color: #4b4fbd;
+  color: #fff;
+  padding: 40px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(245, 241, 10);
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  padding: 5px;
+  background-color: rgb(6, 42, 88);
+}
+.quote-container {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  color: #333;
+}
+label,
+select,
+input {
+  margin-bottom: 10px;
+}
+
+.money-converter {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.money-converter input[type="number"] {
+  margin-bottom: 10px;
+
+  width: 150px;
+}
+
+.converter-box {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 450px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.converter-box h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: inline-block;
+  width: 100%;
+}
+
+.input-group select,
+.input-group input[type="number"] {
+  padding: 5px;
+  width: 180px;
+}
+#result {
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  background-color: #4b4fbd;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+.my-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.my-button:hover {
+  background-color: #2980b9;
+}
+#image {
+  background-image: url("money.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
